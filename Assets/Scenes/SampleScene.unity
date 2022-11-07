@@ -144,7 +144,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8437628
 Transform:
   m_ObjectHideFlags: 0
@@ -840,7 +840,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 22721914}
   m_LocalRotation: {x: 0.14627717, y: -0.799082, z: 0.21575107, w: 0.54177725}
-  m_LocalPosition: {x: 2.636464, y: 1.2493594, z: 0.7983278}
+  m_LocalPosition: {x: 3.76, y: 2.73, z: -0.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1964,6 +1964,7 @@ GameObject:
   - component: {fileID: 509744447}
   - component: {fileID: 509744449}
   - component: {fileID: 509744448}
+  - component: {fileID: 509744450}
   m_Layer: 0
   m_Name: LeftHand
   m_TagString: Untagged
@@ -2275,6 +2276,33 @@ MonoBehaviour:
   m_HapticHoverCancelIntensity: 0
   m_HapticHoverCancelDuration: 0
   m_AllowHoverHapticsWhileSelecting: 1
+--- !u!114 &509744450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509744445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b4df9f9af815b24ca970d488a5e9bbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palanca:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Palanca
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 311b42fb-a69c-424c-8879-e8cc17456943
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  vPalanca: {x: 0, y: 0}
+  rayo: {fileID: 8437627}
 --- !u!1 &527449253
 GameObject:
   m_ObjectHideFlags: 0
@@ -2979,7 +3007,7 @@ MonoBehaviour:
   m_EnableTurnAround: 1
   m_DelayTime: 0
   m_LeftHandSnapTurnAction:
-    m_UseReference: 1
+    m_UseReference: 0
     m_Action:
       m_Name: Left Hand Snap Turn
       m_Type: 0
@@ -3271,7 +3299,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 154.82402
+  m_Radius: 118.79
   m_Height: 652.29
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
@@ -4150,7 +4178,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2083399434
 Transform:
   m_ObjectHideFlags: 0
