@@ -43,7 +43,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 12}
   m_MinSize: {x: 875, y: 421}
   m_MaxSize: {x: 10000, y: 10000}
@@ -67,8 +67,8 @@ MonoBehaviour:
     y: 0
     width: 1280
     height: 680
-  m_MinSize: {x: 480, y: 270}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 480, y: 291}
+  m_MaxSize: {x: 4000, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_MinSize: {x: 480, y: 291}
   m_MaxSize: {x: 4000, y: 4021}
   vertical: 0
-  controlID: 2630
+  controlID: 16
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 106
+  controlID: 99
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -199,7 +199,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 263
+  controlID: 115
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 261
+  controlID: 97
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -373,7 +373,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 262
+  controlID: 98
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -466,20 +466,20 @@ MonoBehaviour:
   m_lastTimeSaved: 2874.3577457
   m_cacheSaveOp: 0
   m_mainGraphInstance: {fileID: 0}
-  m_cameraOffset: {x: 1371.7183, y: 403.72336}
-  m_cameraZoom: 1.7050493
+  m_cameraOffset: {x: 1719.549, y: 287.7801}
+  m_cameraZoom: 1.705049
   m_minNodePos: {x: -1255.482, y: -270.139}
   m_maxNodePos: {x: 490.97733, y: 684.6947}
   m_isDirty: 0
   m_saveIsDirty: 0
-  m_repaintIsDirty: 1
+  m_repaintIsDirty: 0
   m_liveShaderEditing: 0
   m_shaderIsModified: 0
   m_lastOpenedLocation: Assets/Shaders/MorionHolograma.shader
   m_zoomChanged: 0
   m_lastWindowWidth: 1280
-  m_graphCount: 1
-  m_currentInactiveTime: 276.2937984
+  m_graphCount: 2
+  m_currentInactiveTime: -1542.2129762999998
   m_currentNodeAvailability: 1
   m_nodeParametersWindowMaximized: 1
   m_paletteWindowMaximized: 1
@@ -623,22 +623,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Modelos/CIS
+    - Assets/Modelos/Robots/Robot V4/UVS-ROBOT-04
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Modelos/CIS
+  - Assets/Modelos/Robots/Robot V4/UVS-ROBOT-04
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\MSI\Documents\Proyectos\Unity\Pascual\MetaPascual
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 191}
-    m_SelectedIDs: fe820000
-    m_LastClickedID: 33534
-    m_ExpandedIDs: 00000000788000007a8000007c8000007e800000808000008280000084800000c0820000fe82000000ca9a3b
+    scrollPos: {x: 0, y: 251}
+    m_SelectedIDs: e89e0000
+    m_LastClickedID: 40680
+    m_ExpandedIDs: 00000000a0800000a2800000a4800000a6800000a8800000aa800000ac800000828300009e830000aa830000b0830000ea9e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -666,7 +666,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000788000007a8000007c8000007e800000808000008280000084800000
+    m_ExpandedIDs: 00000000a0800000a2800000a4800000a6800000a8800000aa800000ac800000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -697,15 +697,15 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000ae800000ba800000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: UVS CYBERPLANTA01
-      m_OriginalName: 'UVS CYBERPLANTA01 '
+      m_Name: Planta
+      m_OriginalName: Planta
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 43188
+      m_UserData: 33712
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -796,9 +796,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a8a80000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 26fbffff5e790000
+      m_ExpandedIDs: 26fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -856,8 +856,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -100, y: -25.600006}
+      snapOffset: {x: -100, y: -25.600006}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -878,7 +878,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -1048,9 +1048,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.7319295, y: 0.44719175, z: 0.22145441}
+    m_Target: {x: 1.4006307, y: 1.2629447, z: -3.7330828}
     speed: 2
-    m_Value: {x: -2.7319295, y: 0.44719175, z: 0.22145441}
+    m_Value: {x: 1.4006307, y: 1.2629447, z: -3.7330828}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1097,13 +1097,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.19767982, y: 0.4475845, z: -0.102183096, w: -0.8661526}
+    m_Target: {x: -0.006189521, y: -0.9919286, z: 0.053014796, w: -0.11533971}
     speed: 2
-    m_Value: {x: -0.19782586, y: 0.44626898, z: -0.10188285, w: -0.8667923}
+    m_Value: {x: -0.0058433074, y: -0.99204624, z: 0.050036907, w: -0.115353465}
   m_Size:
-    m_Target: 0.50151205
+    m_Target: 1.2376101
     speed: 2
-    m_Value: 0.50151205
+    m_Value: 1.2376101
   m_Ortho:
     m_Target: 0
     speed: 2
