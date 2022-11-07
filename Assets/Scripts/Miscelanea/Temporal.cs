@@ -8,7 +8,8 @@ public class Temporal : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log("log");
+        print("a");
     }
 
     // Update is called once per frame
