@@ -12,10 +12,10 @@ public class ManoAnimaciones : MonoBehaviour
     public float tv;
     public float gv;
 
-    Animator animaciones;
+    public Animator animaciones;
     void Start()
     {
-        animaciones = GetComponent<Animator>();
+        if(animaciones == null) animaciones = GetComponent<Animator>();
     }
 
     // Update is called once per frame
