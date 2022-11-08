@@ -6,8 +6,9 @@ public class Autoreposicionador : MonoBehaviour
 {
     public Transform referencia;
     
-    Vector3 offset;
-    void Start()
+    public Vector3 offset;
+    [ContextMenu("Calcular offset")]
+    public void CalcularOffset()
     {
         offset = referencia.position - transform.position;    
     }
