@@ -27,10 +27,9 @@ public class Activador : MonoBehaviour
     public AnimationCurve curvaScale;
 
 
-    public GameObject[] EntrarMenu;
-    public GameObject[] SalidaMenu;
+    public Activador[] EntrarMenu;
+    public Activador[] SalidaMenu;
 
-    private Activador codeIn;
     private float cronometro;
 
     [Header("Teclado")]
@@ -43,7 +42,10 @@ public class Activador : MonoBehaviour
         {
             GetComponentInChildren<Renderer>().material = material[estado];
         }
-        
+        if (activador == false)
+        {
+            gameObject.SetActive(false);
+        }
         cronometro = tiempoCD;
         //this.gameObject.SetActive(activador);
     } 
@@ -110,6 +112,11 @@ public class Activador : MonoBehaviour
         yield return new WaitForSeconds(0.8f);
         ActivarNodos();
     }
+    IEnumerator tiempoDesact(int i)
+    {
+        yield return new WaitForSeconds(2f);
+        SalidaMenu[i].gameObject.SetActive(false);
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -134,20 +141,19 @@ public class Activador : MonoBehaviour
     void ActivarNodos()
     {
         for (int i = 0; i < EntrarMenu.LongLength; i++)
-        {         
-            codeIn = EntrarMenu[i].GetComponent<Activador>();
-            codeIn.activador = true;
+        {
+            EntrarMenu[i].gameObject.SetActive(true);
+            EntrarMenu[i].activador = true;
             
         }
     }
 
     void DescativarNodos()
     {
-        for (int i = 0; i < SalidaMenu.LongLength; i++)
+        for (int i = SalidaMenu.Length -1; i > -1 ; i--)
         {
-            codeIn = SalidaMenu[i].GetComponent<Activador>();
-            codeIn.activador = false;
-            
+            SalidaMenu[i].activador = false;
+            StartCoroutine(tiempoDesact(i));
         }
     }
 
