@@ -18,9 +18,11 @@ public class Teclado : MonoBehaviour
 
     string[] nums = { "0","1","2","3","4","5","6","7","8","9"};
 
+    AudioSource audioScource;
     void Start()
     {
-        letra = gameObject.name;      
+        letra = gameObject.name;
+        audioScource = GetComponent<AudioSource>();
         tamañoBase = gameObject.GetComponent<Transform>().localScale;
     }
 
@@ -46,6 +48,10 @@ public class Teclado : MonoBehaviour
         if (other.CompareTag(tags[0]) || other.CompareTag(tags[1]))
         {
             Crece = true;
+            if (audioScource!=null)
+            {
+                audioScource.Play();
+            }
         }
     }
     private void OnTriggerExit(Collider other)
