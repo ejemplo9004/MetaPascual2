@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Activador : MonoBehaviour
 {
-   
+   [Header("BotonesInterfaz")]
     public string[] tags;
     public bool rotarObj = false;
     private float tiempoCD = 1f ;
@@ -17,20 +17,15 @@ public class Activador : MonoBehaviour
     public bool scalaOA = false;
 
     public bool activador;
-    /*public enum OpcionesMenu { MenuBase, Interfaz1, Interfaz2, Interfaz3 }
-    public OpcionesMenu opcion = OpcionesMenu.MenuBase;*/
+
+    public bool estadoSi;
     public int estado;
     public Material[] material;
     
     [Range(0, 1)]
     public float tScale;
     public AnimationCurve curvaScale;
- 
-   /* [Range(0, 1)]
-    public float tPotition;
-    public AnimationCurve curvaPotition;
 
-    */
 
     public GameObject[] EntrarMenu;
     public GameObject[] SalidaMenu;
@@ -38,10 +33,17 @@ public class Activador : MonoBehaviour
     private Activador codeIn;
     private float cronometro;
 
+    [Header("Teclado")]
+    public Teclado tec;
+    public bool TomarDatosTeclado ;
+
     void Start()
     {
+        if (estadoSi)
+        {
+            GetComponentInChildren<Renderer>().material = material[estado];
+        }
         
-        GetComponentInChildren<Renderer>().material = material[estado];
         cronometro = tiempoCD;
         //this.gameObject.SetActive(activador);
     } 
@@ -71,7 +73,8 @@ public class Activador : MonoBehaviour
             transform.localScale += Vector3.one * curvaScale.Evaluate(tiempoEscalaIdle);
           
         }
-        else if (!scalaOA )
+        //-----------------------------------El error de titilar esta aca-------------------------------------
+        else if (!scalaOA && !activador)
         {
             if (scaleO >= 1.01f && !activador)
             {
@@ -83,38 +86,7 @@ public class Activador : MonoBehaviour
             }    
             
         }
-
-
-        /*if (activador && tPotition <= 1)
-        {
-            tPotition += tiempoAnimEntrada * Time.deltaTime;
-        }
-        else if (!activador && tPotition >= 0)
-        {
-            tPotition -= tiempoAnimEntrada * Time.deltaTime;
-        }
-
-
-        transform.localPosition = Vector3.one * curvaPotition.Evaluate(tPotition);
-        */
-
-        /* Este Si funciona pero el cd no desctiva el collider de los ocultos 
-        if (activador)
-        {  
-            cronometro -= 0.8f * Time.deltaTime;
-
-            if (cronometro > 0 )
-            {
-                GetComponent<Collider>().enabled = false;
-            }
-            else if (cronometro <= 0 )
-            {
-                GetComponent<Collider>().enabled = true;
-                cronometro = 0;
-            }
-        }
-        */
-
+        // ------------------------------------------Hasta acá------------------------------------------------
 
             if (!activador)
             {
@@ -178,4 +150,5 @@ public class Activador : MonoBehaviour
             
         }
     }
+
 }
