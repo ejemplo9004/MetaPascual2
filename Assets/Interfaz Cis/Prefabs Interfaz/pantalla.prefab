@@ -154,6 +154,7 @@ MonoBehaviour:
   tiempoEscalaIdle: 0.05
   scalaOA: 0
   activador: 1
+  estadoSi: 1
   estado: 1
   material:
   - {fileID: 2100000, guid: fef98133f8acdb54f8a74bc397c7f7d0, type: 2}
@@ -196,6 +197,8 @@ MonoBehaviour:
     m_RotationOrder: 4
   EntrarMenu: []
   SalidaMenu: []
+  tec: {fileID: 0}
+  TomarDatosTeclado: 0
 --- !u!1 &7709364394929727165
 GameObject:
   m_ObjectHideFlags: 0

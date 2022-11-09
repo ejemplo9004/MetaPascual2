@@ -237,12 +237,14 @@ MonoBehaviour:
   tiempoEscalaIdle: 0.05
   scalaOA: 0
   activador: 1
+  estadoSi: 1
   estado: 0
   material:
   - {fileID: 2100000, guid: fef98133f8acdb54f8a74bc397c7f7d0, type: 2}
   - {fileID: 2100000, guid: c13cb70cf15c0274ab769e48d0e0d9ba, type: 2}
   - {fileID: 2100000, guid: 6a3115725bdef4d478d49e73c26c617c, type: 2}
   - {fileID: 2100000, guid: 697b26cc58ba9ad45a30c6565d1c9d49, type: 2}
+  - {fileID: 2100000, guid: 4a29cb09f650aee40a4110b478591091, type: 2}
   tScale: 0
   curvaScale:
     serializedVersion: 2
@@ -277,8 +279,15 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  EntrarMenu: []
-  SalidaMenu: []
+  EntrarMenu:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  SalidaMenu:
+  - {fileID: 8355916021785415289}
+  tec: {fileID: 0}
+  TomarDatosTeclado: 0
 --- !u!1 &9166870918026661899
 GameObject:
   m_ObjectHideFlags: 0
