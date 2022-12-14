@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Activador : MonoBehaviour
 {
+    public static Activador activadorBase;
     [Header("BotonesInterfaz")]
     public string[] tags;
     public bool rotarObj = false;
@@ -145,6 +146,14 @@ public class Activador : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (activadorBase == null)
+        {
+            activadorBase = this;
+        }
+        else if (activadorBase != this) {
+                return;
+        }
+
         if (other.CompareTag(tags[0]) || other.CompareTag(tags[1]))
         {
             if (audioScource != null)
@@ -157,6 +166,14 @@ public class Activador : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
+        if (activadorBase != this)
+        {
+            return;
+        }
+        else
+        {
+            activadorBase = null;
+        }
         if (other.CompareTag(tags[0]) || other.CompareTag(tags[1]))
         {
             if (paraPantalla)
