@@ -153,8 +153,12 @@ public class Activador : MonoBehaviour
         else if (activadorBase != this) {
                 return;
         }
-
-        if (other.CompareTag(tags[0]) || other.CompareTag(tags[1]))
+        bool fue = false;
+        for (int i = 0; i < tag.Length; i++)
+        {
+            fue = fue || other.CompareTag(tags[i]);
+        }
+        if (fue)
         {
             if (audioScource != null)
             {
