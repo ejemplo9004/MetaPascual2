@@ -33,7 +33,7 @@ BlendTree:
     m_DirectBlendParameter: Grip
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 1d69ffabe697c404091273677c598749, type: 2}
+    m_Motion: {fileID: 7400000, guid: bb7254a8c8f617c44b0d811385372884, type: 2}
     m_Threshold: 1
     m_Position: {x: 1, y: 1}
     m_TimeScale: 1
