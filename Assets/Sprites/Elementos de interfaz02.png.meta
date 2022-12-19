@@ -166,7 +166,7 @@ TextureImporter:
         width: 167
         height: 245
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -229,7 +229,7 @@ TextureImporter:
         width: 167
         height: 244
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -237,6 +237,48 @@ TextureImporter:
       bones: []
       spriteID: ab433a82e4e7b1b4abe51e7fc2ef5259
       internalID: 1122634002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementos de interfaz02_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 4
+        width: 149
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e1def2c0676ef47b8f41e60f58c854
+      internalID: -139226090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elementos de interfaz02_7
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 4
+        width: 149
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c79ec712c944144a45cf2b9e3ffd4c
+      internalID: -61941716
       vertices: []
       indices: 
       edges: []
@@ -253,8 +295,10 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Elementos de interfaz02_1: -1250726689
+      Elementos de interfaz02_7: -61941716
       Elementos de interfaz02_4: -23198194
       Elementos de interfaz02_5: 1122634002
+      Elementos de interfaz02_6: -139226090
       Elementos de interfaz02_2: 580868498
       Elementos de interfaz02_0: -1315084246
       Elementos de interfaz02_3: 565440449

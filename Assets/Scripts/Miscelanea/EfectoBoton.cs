@@ -14,7 +14,7 @@ public class EfectoBoton : MonoBehaviour
     Vector3 escalaInicial;
     Vector3 escalaFinal;
     AudioSource sonido;
-    MeshRenderer malla;
+    public MeshRenderer malla;
     public InputActionProperty triggerControl;
     public bool mouseSobre;
     public UnityEvent eventoActivar;
@@ -26,7 +26,10 @@ public class EfectoBoton : MonoBehaviour
         escalaInicial = transform.localScale;
         escalaFinal = escalaInicial * cambioEscala;
         sonido = GetComponent<AudioSource>();
-        malla = GetComponent<MeshRenderer>();
+        if (malla==null)
+        {
+            malla = GetComponent<MeshRenderer>();
+        }
     }
 
     public void AumentarEscala(bool activo)
