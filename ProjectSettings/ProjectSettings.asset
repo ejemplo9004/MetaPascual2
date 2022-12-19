@@ -164,6 +164,16 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: -671131109456511904, guid: 658b5da58a1eeaa40a8de799c996b768, type: 2}
+  - {fileID: -8278061578539084988, guid: 04ea12a0039c1224fae9612177bd631c, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -184,7 +194,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DefaultCompany.MetaPascual
-    Standalone: com.UnityTechnologies.com.unity.template-starter-kit
+    Standalone: com.DefaultCompany.MetaPascual
   buildNumber:
     Standalone: 0
     iPhone: 0
