@@ -176,7 +176,7 @@ Material:
     - _DistanciaBorde: 0.003
     - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _EstadoPantalla: 1
+    - _EstadoPantalla: 7
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
