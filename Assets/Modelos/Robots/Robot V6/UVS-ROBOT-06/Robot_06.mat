@@ -21,17 +21,9 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Robot_06
-  m_Shader: {fileID: -6465566751694194690, guid: 3739e562a03fc0b4982d8aa66cc50865,
-    type: 3}
+  m_Shader: {fileID: 4800000, guid: f834098690f711f42993b0d9c4bcbb85, type: 3}
   m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _ALPHAPREMULTIPLY_ON
-  - _EMISSION
-  - _METALLICGLOSSMAP
-  - _METALLICSPECGLOSSMAP
-  - _NORMALMAP
-  - _SPECGLOSSMAP
-  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -45,15 +37,31 @@ Material:
         m_Texture: {fileID: 2800000, guid: 9f73cd424fd8b56449edcb8cd00861de, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Difuso:
+        m_Texture: {fileID: 2800000, guid: de8764bcb699f764b8bbe530765209fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _EMISSION_COLOR_MAP:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 777b722fe4ea86049a4b07d70c79f806, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emisivo:
+        m_Texture: {fileID: 2800000, guid: 777b722fe4ea86049a4b07d70c79f806, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _METALNESS_MAP:
         m_Texture: {fileID: 2800000, guid: 05b937f3a42329c43b86d0b00f6e4db2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Mascara:
+        m_Texture: {fileID: 2800000, guid: e0e5b10a10710cc498aca061775d7535, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _NORMAL_MAP:
+        m_Texture: {fileID: 2800000, guid: 01a544d1608ed14459cfc6fba333f5ea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normales:
         m_Texture: {fileID: 2800000, guid: 01a544d1608ed14459cfc6fba333f5ea, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -67,6 +75,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _SPECULAR_ROUGHNESS_MAP:
         m_Texture: {fileID: 2800000, guid: 7efe9688aea8dfc4daf67d4d6b209a84, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -84,6 +96,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 0
+    - _AlphaCutoff: 0.5
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -112,6 +125,19 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 1
+    - _TessEdgeLength: 16
+    - _TessMax: 25
+    - _TessMaxDisp: 25
+    - _TessMin: 10
+    - _TessPhongStrength: 0.5
+    - _TessValue: 16
+    - _TransAmbient: 0.288
+    - _TransDirect: 0.9
+    - _TransNormal: 0.5
+    - _TransScattering: 9
+    - _TransShadow: 0.5
+    - _TransStrength: 6.7
+    - _TransmissionShadow: 0.5
     - _UVSec: 0
     - _WorkflowMode: 1
     - _ZWrite: 0
@@ -119,6 +145,9 @@ Material:
     - _BASE_COLOR: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorEmisivo: {r: 4, g: 4, b: 4, a: 0}
+    - _ColorPrincipal: {r: 0.76733243, g: 1, b: 0, a: 0}
+    - _ColorSecundario: {r: 1, g: 1, b: 1, a: 0}
     - _EMISSION_COLOR: {r: 15, g: 15, b: 15, a: 15}
     - _EmissionColor: {r: 15, g: 15, b: 15, a: 15}
     - _SPECULAR_COLOR: {r: 1, g: 1, b: 1, a: 1}

@@ -3408,6 +3408,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 531045913}
     m_Modifications:
+    - target: {fileID: 11080440344067427, guid: 0f885383e987b3341a6c73fa05455038,
+        type: 3}
+      propertyPath: m_Text
+      value: "Men\xFA"
+      objectReference: {fileID: 0}
     - target: {fileID: 1207934901029563422, guid: 0f885383e987b3341a6c73fa05455038,
         type: 3}
       propertyPath: m_RootOrder
@@ -4353,13 +4358,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: efe8fe272e28dde458dc2c017a21ea44, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.301
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 217
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
