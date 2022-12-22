@@ -41,6 +41,12 @@ public class Activador : MonoBehaviour
 
     AudioSource audioScource;
 
+    [Header("Pantalla")]
+    public bool paraPantalla;
+    public int estadoPantalla;
+    public GameObject pantalla;
+    [SerializeField] public Material[] materialPantalla;
+
     void Start()
     {
         /* if (estadoSi)
@@ -56,7 +62,7 @@ public class Activador : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
         audioScource = GetComponent<AudioSource>();
 
-        shaderPantalla.SetFloat("_EstadoPantalla", 1);
+        pantalla.GetComponent<Renderer>().material = materialPantalla[0];
 
     }
     void Update()
@@ -151,7 +157,7 @@ public class Activador : MonoBehaviour
             activadorBase = this;
         }
         else if (activadorBase != this) {
-                return;
+            return;
         }
         bool fue = false;
         for (int i = 0; i < tag.Length; i++)
@@ -212,13 +218,10 @@ public class Activador : MonoBehaviour
         }
     }
 
-    [Header("Pantalla")]
-    public bool paraPantalla;
-    public int estadoPantalla;
-    [SerializeField] private Material shaderPantalla;
+
 
     void ShaderEstate(int pantallaAMostrar) 
     {
-        shaderPantalla.SetFloat("_EstadoPantalla", pantallaAMostrar);
+        pantalla.GetComponent<Renderer>().material = materialPantalla[pantallaAMostrar];
     }
 }
