@@ -7048,27 +7048,27 @@ struct U3COnAfterInteractionEventsU3Ed__39_t548BD9EBB0466CEA0B2A892A6D99AAA38516
 	ActionBasedControllerManager_t6BE24741ABCE5E9988A1D0B23790BB911E418717* ___U3CU3E4__this_2;
 };
 
-// Activador/<tiempoDesact>d__22
-struct U3CtiempoDesactU3Ed__22_tAC0B0D72F3396800B093DB71A27B9B46FC23E531  : public RuntimeObject
+// Activador/<tiempoDesact>d__26
+struct U3CtiempoDesactU3Ed__26_tD3069909CC131F0128F250A9CDF9B3FE14DBE481  : public RuntimeObject
 {
-	// System.Int32 Activador/<tiempoDesact>d__22::<>1__state
+	// System.Int32 Activador/<tiempoDesact>d__26::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object Activador/<tiempoDesact>d__22::<>2__current
+	// System.Object Activador/<tiempoDesact>d__26::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// System.Int32 Activador/<tiempoDesact>d__22::i
+	// System.Int32 Activador/<tiempoDesact>d__26::i
 	int32_t ___i_2;
-	// Activador Activador/<tiempoDesact>d__22::<>4__this
+	// Activador Activador/<tiempoDesact>d__26::<>4__this
 	Activador_t4482D2B0571739758F32E70927A0528D21664FEE* ___U3CU3E4__this_3;
 };
 
-// Activador/<tiempoSpawn>d__21
-struct U3CtiempoSpawnU3Ed__21_t3E1FB5C7BBB321D6F55B9E9AADEFA2D774B8BC01  : public RuntimeObject
+// Activador/<tiempoSpawn>d__25
+struct U3CtiempoSpawnU3Ed__25_tCFA9D6EC079BBD5B7365F27C887AA64293C287AF  : public RuntimeObject
 {
-	// System.Int32 Activador/<tiempoSpawn>d__21::<>1__state
+	// System.Int32 Activador/<tiempoSpawn>d__25::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object Activador/<tiempoSpawn>d__21::<>2__current
+	// System.Object Activador/<tiempoSpawn>d__25::<>2__current
 	RuntimeObject* ___U3CU3E2__current_1;
-	// Activador Activador/<tiempoSpawn>d__21::<>4__this
+	// Activador Activador/<tiempoSpawn>d__25::<>4__this
 	Activador_t4482D2B0571739758F32E70927A0528D21664FEE* ___U3CU3E4__this_2;
 };
 
@@ -26439,8 +26439,10 @@ struct Activador_t4482D2B0571739758F32E70927A0528D21664FEE  : public MonoBehavio
 	bool ___paraPantalla_23;
 	// System.Int32 Activador::estadoPantalla
 	int32_t ___estadoPantalla_24;
-	// UnityEngine.Material Activador::shaderPantalla
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___shaderPantalla_25;
+	// UnityEngine.GameObject Activador::pantalla
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pantalla_25;
+	// UnityEngine.Material[] Activador::materialPantalla
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ___materialPantalla_26;
 };
 
 struct Activador_t4482D2B0571739758F32E70927A0528D21664FEE_StaticFields
@@ -34677,9 +34679,9 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize6487 = { sizeof(EVariables_t
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6488;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize6488 = { sizeof(EVida_t96EE6FDDB2858034839A22402C29B130896463B6), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6489;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6489 = { sizeof(U3CtiempoSpawnU3Ed__21_t3E1FB5C7BBB321D6F55B9E9AADEFA2D774B8BC01), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6489 = { sizeof(U3CtiempoSpawnU3Ed__25_tCFA9D6EC079BBD5B7365F27C887AA64293C287AF), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6490;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6490 = { sizeof(U3CtiempoDesactU3Ed__22_tAC0B0D72F3396800B093DB71A27B9B46FC23E531), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6490 = { sizeof(U3CtiempoDesactU3Ed__26_tD3069909CC131F0128F250A9CDF9B3FE14DBE481), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6491;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize6491 = { sizeof(Activador_t4482D2B0571739758F32E70927A0528D21664FEE), -1, sizeof(Activador_t4482D2B0571739758F32E70927A0528D21664FEE_StaticFields), 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6492;
