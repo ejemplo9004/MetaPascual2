@@ -216,6 +216,31 @@ PrefabInstance:
       propertyPath: eventoActivar.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: CIS
       objectReference: {fileID: 0}
+    - target: {fileID: 5303562126248935540, guid: 0f885383e987b3341a6c73fa05455038,
+        type: 3}
+      propertyPath: m_MovementType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303562126248935540, guid: 0f885383e987b3341a6c73fa05455038,
+        type: 3}
+      propertyPath: m_ThrowOnDetach
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303562126248935540, guid: 0f885383e987b3341a6c73fa05455038,
+        type: 3}
+      propertyPath: m_TrackPosition
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303562126248935540, guid: 0f885383e987b3341a6c73fa05455038,
+        type: 3}
+      propertyPath: m_TrackRotation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303562126248935540, guid: 0f885383e987b3341a6c73fa05455038,
+        type: 3}
+      propertyPath: m_RetainTransformParent
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6318817696445867530, guid: 0f885383e987b3341a6c73fa05455038,
         type: 3}
       propertyPath: m_Name
@@ -1191,6 +1216,21 @@ PrefabInstance:
       propertyPath: eventoActivar.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Personalizacion
       objectReference: {fileID: 0}
+    - target: {fileID: 5303562126248935540, guid: 0f885383e987b3341a6c73fa05455038,
+        type: 3}
+      propertyPath: m_ThrowOnDetach
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303562126248935540, guid: 0f885383e987b3341a6c73fa05455038,
+        type: 3}
+      propertyPath: m_TrackPosition
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303562126248935540, guid: 0f885383e987b3341a6c73fa05455038,
+        type: 3}
+      propertyPath: m_TrackRotation
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6318817696445867530, guid: 0f885383e987b3341a6c73fa05455038,
         type: 3}
       propertyPath: m_Name
@@ -1296,6 +1336,21 @@ PrefabInstance:
         type: 3}
       propertyPath: eventoActivar.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: CIS
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303562126248935540, guid: 0f885383e987b3341a6c73fa05455038,
+        type: 3}
+      propertyPath: m_MovementType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303562126248935540, guid: 0f885383e987b3341a6c73fa05455038,
+        type: 3}
+      propertyPath: m_TrackPosition
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303562126248935540, guid: 0f885383e987b3341a6c73fa05455038,
+        type: 3}
+      propertyPath: m_TrackRotation
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6318817696445867530, guid: 0f885383e987b3341a6c73fa05455038,
         type: 3}
